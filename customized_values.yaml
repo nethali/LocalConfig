@@ -1,0 +1,9 @@
+# Customized values for web-app
+
+replicaCount: 20
+
+service:
+  port: 30044
+
+image:
+  tag: 2.0.0
