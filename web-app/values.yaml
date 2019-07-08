@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: nethali/webapp
-  tag: 2.0.0
+  tag: 3.0.0
   pullPolicy: IfNotPresent
   containerPort: 8080
 
@@ -15,7 +15,7 @@ fullnameOverride: ""
 
 service:
   type: NodePort
-  port: 30002
+  port: 30003
 
 ingress:
   enabled: false
