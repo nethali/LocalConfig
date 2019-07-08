@@ -3,7 +3,7 @@
 replicaCount: 10
 
 service:
-  port: 30000022
+  port: 30021
 
 #image:
 #  tag: 2.0.0
